@@ -26,8 +26,8 @@ app.get('/test-db',function(req,res){
             res.status(500).send(err.toString());
         }
         else{
-            // res.send(JSON.string(result.rows));
-             res.send('Article one is requested ansd is serverd');
+             res.send(result);
+            //  res.send('Article one is requested ansd is serverd');
         }
     })
     
