@@ -29,7 +29,7 @@ app.get('/test-db',function(req,res){
              res.send(result.fields);
             //  res.send('Article one is requested ansd is serverd');
         }
-    })
+    });
     
 });
 
